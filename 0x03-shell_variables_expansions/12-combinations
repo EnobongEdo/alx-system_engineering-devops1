@@ -1,0 +1,2 @@
+#!/bin/bash
+printf "%s\n" {a..} {a,,z} | grep -v 00
